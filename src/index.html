@@ -7,7 +7,31 @@
   <title>Analizador de Texto</title>
 </head>
 <body>
- 
+  <!-- Encabezado -->
+  <header>
+   <h1>Analizador de Textos</h1> 
+  </header>
+
+  <!-- Cuadro de texto -->
+  <textarea name="user-input" rows="10" cols="50">Escribe un texto aquí</textarea>
+
+  <!-- Listado de métricas -->
+  <ul>
+    <li data-testid="word-count">Palabras</li>
+    <li data-testid="character-count">Caracteres</li>
+    <li data-testid="character-no-spaces-count">Caracteres sin espacios sin espacios y signos</li>
+    <li data-testid="number-count">Números</li>
+    <li data-testid="number-sum">Suma de números</li>
+    <li data-testid="word-length-average">Longitud media</li>
+  </ul>
+
+  <!-- Botón -->
+  <button id="reset-button"></button>
+
+  <!-- Footer -->
+  <footer>
+    <p>Rubi Estrada Ramirez</p>
+  </footer>
   
   <script src="index.js" type="module"></script>
 </body>
