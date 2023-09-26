@@ -39,32 +39,44 @@ textarea[name="user-input"]{
     text-align: center;
     margin: 3rem;
     width: 40%;
-    height: 15rem;
+    height: 16rem;
+    border-radius: 10px;
     background-color: var(--blue-light);
-    color: var(--black-color);
+    color: #000000;
     float: left;
 }
 
 
+
 /* Listado de métricas */
-.metricas{
-    width: 40%;
-    height: 2rem; 
-    padding: 5px;
-    margin: 10px;
-    border-radius: 10px;
+ul{
+    list-style: none;
+    margin: 3rem;
     border: 2px solid var(--blue-light);
-    background-color: var(--yellow-color);
-    text-align: center;
-    color: var(--black-color);
-    list-style: none; 
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    width: 40%;
     float: right;
 }
 
+.metricas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    margin: 0.2rem 0;
+    padding: 0.2rem 0;
+    border-radius: 10px;
+    border: 2px solid var(--blue-light);
+    background: var(--yellow-color);
+    color: var(--black-color);
+    font-weight: bold;
+}
 .metricas:hover{
     background-color: var(--blue-light);
 }
-
 
 /* Botón */
 #reset-button {
