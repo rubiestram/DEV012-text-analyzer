@@ -26,7 +26,7 @@ El proyecto se inicio con un sketch, posteriormente se realizo un prototipado de
 facil de entender por el usuario. 
 
 - *Sketch*
-![Demo-Text-Analyzer]()
+![Demo-Text-Analyzer](https://github.com/rubiestram/DEV012-text-analyzer/blob/main/sketch-text-analyzer.jpeg)
 
 - *Mockup de Media Calidad*
 ![Demo-Text-Analyzer](https://github.com/rubiestram/DEV012-text-analyzer/blob/main/prototipo-text-analyzer.png)
