@@ -4,7 +4,7 @@ herramienta diseñada para examinar y procesar el lenguaje natural (NLP) para
 analizar el texto y proporcionar análisis detallados, el usuario obtendra
 de manera inmediata 6 métricas
 
-![Text analyzer demo](https://raw.githubusercontent.com/rubiestram/DEV012-text-analyzer/main/appweb-analyzer-text.png"Text analyzer demo")
+![Demo-Text-Analyzer](C:\Users\rubie\Desktop\DEV012-text-analyzer\appweb-analyzer-text.png)
 
 ## Funcionalidad
 ## Diseño
