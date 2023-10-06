@@ -46,7 +46,6 @@ facil de entender por el usuario.
 - Por último se realizarón pruebas para verificar que el proyecto cumple con los criterios minimos y
   funcionalidades, terminando con el *Deploy* del proyecto.
 
-![Demo-Text-Analyzer](https://www.loom.com/share/d6528f5714a24a128f5f53f35ab55623?sid=2b5e71aa-812a-4c0a-9694-264fec0965fd)
 ## Tecnologías 
 - HTML
 - CSS
