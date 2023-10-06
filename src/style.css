@@ -30,7 +30,6 @@ header{
     border-bottom-left-radius: 300px;
 }
 
-
 /* Caja de texto */
 textarea[name="user-input"]{
     text-align: center;
@@ -39,11 +38,10 @@ textarea[name="user-input"]{
     height: 16rem;
     border-radius: 10px;
     background-color: var(--blue-light);
+    border: 2px solid var(--blue-light);
     color: #000000;
     float: left;
 }
-
-
 
 /* Listado de métricas */
 ul{
@@ -78,6 +76,7 @@ ul{
 #reset-button {
     margin: 10px;
     margin-left: 230px;
+    margin-top: -12px; /* Ajusta el valor negativo según la cantidad de píxeles que desees mover hacia arriba */
     width: 12rem;
     height: 2.5rem;
     font-size: 20px;
@@ -100,7 +99,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98px;
+    text-align: center;
+    height: 103px;
+    width: 100%;
     background-color: var(--purple-color);
     font-family: Nunito Sans, sans-serif;
     color: var(--white-color);
