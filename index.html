@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Analizador de Texto</title>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+   <h1>Analizador de Textos</h1> 
+  </header>
+
+  <!-- Cuadro de texto --> 
+  <textarea name="user-input" placeholder="Escribe un texto aquí"></textarea>
+
+  <!-- Listado de métricas -->
+  <ul>
+    <li class="metricas" data-testid="word-count">Palabras: </li>
+    <li class="metricas" data-testid="character-count">Caracteres: </li>
+    <li class="metricas" data-testid="character-no-spaces-count">Caracteres sin espacios y signos: </li>
+    <li class="metricas" data-testid="number-count">Números: </li>
+    <li class="metricas" data-testid="number-sum">Suma de números: </li>
+    <li class="metricas" data-testid="word-length-average">Longitud media: </li>
+  </ul>
+ 
+  <!-- Botón -->
+  <button id="reset-button">Eliminar métricas</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>Rubi Estrada Ramirez</p>
+  </footer>
+  
+  <script src="index.js" type="module"></script>
+</body>
+</html>
+
