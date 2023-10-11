@@ -1,14 +1,27 @@
 const analyzer = {
-  // 1. Función para el número de caracteres existentes
+  // 1. Función para el número de caracteres
   getCharacterCount: (text) => {
     let numeroCaracteres = 0;
     numeroCaracteres = text.length;
     return numeroCaracteres;
   },
+  // 2. Función para el número de palabras 
   getWordCount: (text) => {
-    const palabras = text.match(/\S+/g); // Dividir el texto en palabras usando expresión regular para encontrar palabras
-    const palabrasFiltradas = palabras.filter((palabra) => !/\d/.test(palabra)); // Filtrar las palabras para incluir solo aquellas que no contienen números
-    return palabrasFiltradas.length; // Retornar la cantidad de palabras válidas
+    let conteoPalabras = 0; // Inicializar el contador de palabras
+    let buscarPalabra = false; // Variable para buscar si estamos dentro de una palabra
+
+    for (let i = 0; i < text.length; i++) {
+      const caracter = text[i];
+      // Verificar si el carácter actual es una letra
+      const esLetra = (caracter >= 'a' && caracter <= 'z') || (caracter >= 'A' && caracter <= 'Z');
+      if (esLetra && !buscarPalabra) {
+        conteoPalabras++; // Suma una palabra al contador
+        buscarPalabra = true; 
+      } else if (!esLetra) {
+        buscarPalabra = false;
+      }
+    }
+    return conteoPalabras;
   },
   // 3. Función para el número de caracteres sin espacios y signos de puntuación
   getCharacterCountExcludingSpaces: (text) => {
