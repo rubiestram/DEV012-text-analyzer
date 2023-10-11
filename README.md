@@ -36,15 +36,15 @@ facil de entender por el usuario.
 - https://colorhunt.co/
 
 ## Desarrollo y Pruebas
-- Todo el desarrollo se orgnizo mediante *Trello* una plataforma para organización de cada paso en el 
+- Todo el desarrollo se organizó mediante *Trello*, una plataforma para la organización de cada paso en el 
   desarrollo.
-- El desarrollo de este proyecto se inicio por el diseño, obteniendo el diseño de media calidad en Figma.
-- Desarrollo de HTML conforme a las especificación de **Laboratoria**, utilizando solo los elementos
+- El desarrollo de este proyecto se inició con el diseño, obteniendo un diseño de calidad media en Figma.
+- Desarrollo de HTML conforme a las especificaciones de Laboratoria, utilizando solo los elementos 
   especificados.
-- Desarrollo de los estilos CSS, siendo fiel al prototipado.
-- Desarrollo de JS con el enfoque en las funcionalidades de cada métrica.
-- Por último se realizarón pruebas para verificar que el proyecto cumple con los criterios minimos y
-  funcionalidades, terminando con el *Deploy* del proyecto.
+- Desarrollo de los estilos CSS, siguiendo fielmente el prototipo.
+- Desarrollo de JavaScript con enfoque en las funcionalidades de cada métrica.
+- Por último, se realizaron pruebas para verificar que el proyecto cumple con los criterios mínimos y 
+  funcionalidades, culminando con el deploy del proyecto.
 
 ## Tecnologías 
 - HTML
