@@ -9,19 +9,19 @@ const analyzer = {
   getWordCount: (text) => {
     let conteoPalabras = 0; // Inicializar el contador de palabras
     let buscarPalabra = false; // Variable para buscar si estamos dentro de una palabra
-
     for (let i = 0; i < text.length; i++) {
-      const caracter = text[i];
-      // Verificamos si solo son letras mayúsculas o minuscúlas
-      const esLetra = (caracter >= 'a' && caracter <= 'z') || (caracter >= 'A' && caracter <= 'Z');
-      if (esLetra && !buscarPalabra) {
-        conteoPalabras++; // Suma una palabra al contador
-        buscarPalabra = true; 
-      } else if (!esLetra) {
+      const caracteres = text[i]; // Recorrer caracteres
+      // Verificar si el carácter actual es una letra
+      const esPalabra = (caracteres >= 'a' && caracteres <= 'z') || (caracteres >= 'A' && caracteres <= 'Z');
+      if (esPalabra && !buscarPalabra) {
+        // Comenzar una nueva palabra
+        conteoPalabras++;
+        buscarPalabra = true;
+      } else if (!esPalabra) {
         buscarPalabra = false;
       }
     }
-    return conteoPalabras;
+    return conteoPalabras; // Retorno de resultado
   },
   // 3. Función para el número de caracteres sin espacios y signos de puntuación
   getCharacterCountExcludingSpaces: (text) => {
